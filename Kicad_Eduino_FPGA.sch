@@ -1,0 +1,940 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Xilinx_Spartan6:XC6SLX4-TQG144 U1
+U 1 1 60187590
+P 2850 2400
+F 0 "U1" H 2850 625 50  0000 C CNN
+F 1 "XC6SLX4-TQG144" H 2850 534 50  0000 C CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 2850 2400 50  0001 C CNN
+F 3 "" H 2850 2400 50  0000 C CNN
+	1    2850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Spartan6:XC6SLX4-TQG144 U1
+U 2 1 6019DEC9
+P 8250 2400
+F 0 "U1" H 8250 625 50  0000 C CNN
+F 1 "XC6SLX4-TQG144" H 8250 534 50  0000 C CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8250 2400 50  0001 C CNN
+F 3 "" H 8250 2400 50  0000 C CNN
+	2    8250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Spartan6:XC6SLX4-TQG144 U1
+U 3 1 601AADF8
+P 8750 5050
+F 0 "U1" H 8882 5817 50  0000 C CNN
+F 1 "XC6SLX4-TQG144" H 8882 5726 50  0000 C CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0000 C CNN
+	3    8750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Spartan6:XC6SLX4-TQG144 U1
+U 4 1 601B85EA
+P 1800 5600
+F 0 "U1" H 1800 6467 50  0000 C CNN
+F 1 "XC6SLX4-TQG144" H 1800 6376 50  0000 C CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 1800 5600 50  0001 C CNN
+F 3 "" H 1800 5600 50  0000 C CNN
+	4    1800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5700 2900 5700
+Wire Wire Line
+	2900 5700 2900 5800
+Wire Wire Line
+	2800 6200 2900 6200
+Connection ~ 2900 6200
+Wire Wire Line
+	2900 6200 2900 6400
+Wire Wire Line
+	2800 6100 2900 6100
+Connection ~ 2900 6100
+Wire Wire Line
+	2900 6100 2900 6200
+Wire Wire Line
+	2800 6000 2900 6000
+Connection ~ 2900 6000
+Wire Wire Line
+	2900 6000 2900 6100
+Wire Wire Line
+	2800 5900 2900 5900
+Connection ~ 2900 5900
+Wire Wire Line
+	2900 5900 2900 6000
+Wire Wire Line
+	2800 5800 2900 5800
+Connection ~ 2900 5800
+Wire Wire Line
+	2900 5800 2900 5900
+Wire Wire Line
+	800  5600 700  5600
+Wire Wire Line
+	700  5600 700  5700
+Wire Wire Line
+	700  5700 800  5700
+Wire Wire Line
+	800  5800 700  5800
+Wire Wire Line
+	700  5800 700  5700
+Connection ~ 700  5700
+Wire Wire Line
+	800  5900 700  5900
+Wire Wire Line
+	700  5900 700  5800
+Connection ~ 700  5800
+Wire Wire Line
+	800  6000 700  6000
+Wire Wire Line
+	700  6000 700  5900
+Connection ~ 700  5900
+Wire Wire Line
+	800  6100 700  6100
+Wire Wire Line
+	700  6100 700  6000
+Connection ~ 700  6000
+Wire Wire Line
+	800  6200 700  6200
+Wire Wire Line
+	700  6200 700  6100
+Connection ~ 700  6100
+Wire Wire Line
+	700  6200 700  6400
+Connection ~ 700  6200
+$Comp
+L power:GND #PWR0101
+U 1 1 601C5AEA
+P 700 6400
+F 0 "#PWR0101" H 700 6150 50  0001 C CNN
+F 1 "GND" H 705 6227 50  0000 C CNN
+F 2 "" H 700 6400 50  0001 C CNN
+F 3 "" H 700 6400 50  0001 C CNN
+	1    700  6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 601C5D49
+P 2900 6400
+F 0 "#PWR0102" H 2900 6150 50  0001 C CNN
+F 1 "GND" H 2905 6227 50  0000 C CNN
+F 2 "" H 2900 6400 50  0001 C CNN
+F 3 "" H 2900 6400 50  0001 C CNN
+	1    2900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5400 800  5400
+Wire Wire Line
+	700  5400 700  5300
+Wire Wire Line
+	700  5000 800  5000
+Wire Wire Line
+	800  5100 700  5100
+Connection ~ 700  5100
+Wire Wire Line
+	700  5100 700  5000
+Wire Wire Line
+	800  5200 700  5200
+Connection ~ 700  5200
+Wire Wire Line
+	700  5200 700  5100
+Wire Wire Line
+	800  5300 700  5300
+Connection ~ 700  5300
+Wire Wire Line
+	700  5300 700  5200
+Wire Wire Line
+	2900 5400 2900 5300
+Wire Wire Line
+	2900 5000 2800 5000
+Wire Wire Line
+	2800 5100 2900 5100
+Connection ~ 2900 5100
+Wire Wire Line
+	2900 5100 2900 5000
+Wire Wire Line
+	2800 5200 2900 5200
+Connection ~ 2900 5200
+Wire Wire Line
+	2900 5200 2900 5100
+Wire Wire Line
+	2800 5300 2900 5300
+Connection ~ 2900 5300
+Wire Wire Line
+	2900 5300 2900 5200
+Wire Wire Line
+	2800 5400 2900 5400
+$Comp
+L power:+1V2 #PWR0103
+U 1 1 601D10DF
+P 2900 4900
+F 0 "#PWR0103" H 2900 4750 50  0001 C CNN
+F 1 "+1V2" H 2915 5073 50  0000 C CNN
+F 2 "" H 2900 4900 50  0001 C CNN
+F 3 "" H 2900 4900 50  0001 C CNN
+	1    2900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4900 2900 5000
+Connection ~ 2900 5000
+Wire Wire Line
+	700  5000 700  4900
+Connection ~ 700  5000
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 601D3DA0
+P 700 4900
+F 0 "#PWR0104" H 700 4750 50  0001 C CNN
+F 1 "+3.3V" H 715 5073 50  0000 C CNN
+F 2 "" H 700 4900 50  0001 C CNN
+F 3 "" H 700 4900 50  0001 C CNN
+	1    700  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 601D5062
+P 800 7150
+F 0 "C1" H 750 7400 50  0000 L CNN
+F 1 "1uF/50V" H 600 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 800 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 800 7150 50  0001 C CNN
+F 4 "C15849" H 800 7150 50  0001 C CNN "LCSC"
+	1    800  7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7250 800  7300
+Wire Wire Line
+	800  7300 1000 7300
+Wire Wire Line
+	2200 7300 2200 7250
+Wire Wire Line
+	2000 7250 2000 7300
+Connection ~ 2000 7300
+Wire Wire Line
+	2000 7300 2200 7300
+Wire Wire Line
+	1800 7250 1800 7300
+Connection ~ 1800 7300
+Wire Wire Line
+	1800 7300 2000 7300
+Wire Wire Line
+	1600 7250 1600 7300
+Connection ~ 1600 7300
+Wire Wire Line
+	1600 7300 1800 7300
+Wire Wire Line
+	1400 7250 1400 7300
+Connection ~ 1400 7300
+Wire Wire Line
+	1400 7300 1600 7300
+Wire Wire Line
+	1200 7250 1200 7300
+Connection ~ 1200 7300
+Wire Wire Line
+	1200 7300 1400 7300
+Wire Wire Line
+	1000 7250 1000 7300
+Connection ~ 1000 7300
+Wire Wire Line
+	1000 7300 1200 7300
+Wire Wire Line
+	800  7050 800  7000
+Wire Wire Line
+	800  7000 1000 7000
+Wire Wire Line
+	2200 7000 2200 7050
+Wire Wire Line
+	2000 7050 2000 7000
+Connection ~ 2000 7000
+Wire Wire Line
+	2000 7000 2200 7000
+Wire Wire Line
+	1800 7050 1800 7000
+Connection ~ 1800 7000
+Wire Wire Line
+	1800 7000 2000 7000
+Wire Wire Line
+	1600 7050 1600 7000
+Connection ~ 1600 7000
+Wire Wire Line
+	1600 7000 1800 7000
+Wire Wire Line
+	1400 7050 1400 7000
+Connection ~ 1400 7000
+Wire Wire Line
+	1400 7000 1600 7000
+Wire Wire Line
+	1200 7050 1200 7000
+Connection ~ 1200 7000
+Wire Wire Line
+	1200 7000 1400 7000
+Wire Wire Line
+	1000 7050 1000 7000
+Connection ~ 1000 7000
+Wire Wire Line
+	1000 7000 1200 7000
+Text Notes 150  8600 0    50   ~ 0
+https://lcsc.com/product-detail/CPLD-FPGA_XILINX_XC6SLX9-2TQG144C_XC6SLX9-2TQG144C_C27408.html/?href=jlc-SMT
+Text Notes 150  8750 0    50   ~ 0
+https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT
+$Comp
+L Device:C_Small C2
+U 1 1 601FEB4D
+P 1000 7150
+F 0 "C2" H 950 7400 50  0000 L CNN
+F 1 "1uF/50V" H 850 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1000 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 1000 7150 50  0001 C CNN
+F 4 "C15849" H 1000 7150 50  0001 C CNN "LCSC"
+	1    1000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 601FEE9E
+P 1200 7150
+F 0 "C3" H 1150 7400 50  0000 L CNN
+F 1 "1uF/50V" H 1050 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1200 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 1200 7150 50  0001 C CNN
+F 4 "C15849" H 1200 7150 50  0001 C CNN "LCSC"
+	1    1200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 601FF0B1
+P 1400 7150
+F 0 "C4" H 1350 7400 50  0000 L CNN
+F 1 "1uF/50V" H 1250 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1400 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 1400 7150 50  0001 C CNN
+F 4 "C15849" H 1400 7150 50  0001 C CNN "LCSC"
+	1    1400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 601FF57C
+P 1600 7150
+F 0 "C5" H 1550 7400 50  0000 L CNN
+F 1 "1uF/50V" H 1450 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 1600 7150 50  0001 C CNN
+F 4 "C15849" H 1600 7150 50  0001 C CNN "LCSC"
+	1    1600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 601FF88B
+P 1800 7150
+F 0 "C6" H 1750 7400 50  0000 L CNN
+F 1 "1uF/50V" H 1650 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1800 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 1800 7150 50  0001 C CNN
+F 4 "C15849" H 1800 7150 50  0001 C CNN "LCSC"
+	1    1800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 601FFB46
+P 2000 7150
+F 0 "C7" H 1950 7400 50  0000 L CNN
+F 1 "1uF/50V" H 2300 7050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 2000 7150 50  0001 C CNN
+F 4 "C15849" H 2000 7150 50  0001 C CNN "LCSC"
+	1    2000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 601FFE85
+P 2200 7150
+F 0 "C8" H 2150 7400 50  0000 L CNN
+F 1 "1uF/50V" H 1950 6800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 7150 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 2200 7150 50  0001 C CNN
+F 4 "C15849" H 2200 7150 50  0001 C CNN "LCSC"
+	1    2200 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscillator:SG-5032CBN X1
+U 1 1 60204D0D
+P 3750 7100
+F 0 "X1" H 4094 7146 50  0000 L CNN
+F 1 "SG-5032CBN" H 4094 7055 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" H 4450 6750 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en" H 3650 7100 50  0001 C CNN
+	1    3750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60207133
+P 3750 7450
+F 0 "#PWR0106" H 3750 7200 50  0001 C CNN
+F 1 "GND" H 3755 7277 50  0000 C CNN
+F 2 "" H 3750 7450 50  0001 C CNN
+F 3 "" H 3750 7450 50  0001 C CNN
+	1    3750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7400 3750 7450
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 60209C7D
+P 3750 6750
+F 0 "#PWR0107" H 3750 6600 50  0001 C CNN
+F 1 "+3.3V" H 3765 6923 50  0000 C CNN
+F 2 "" H 3750 6750 50  0001 C CNN
+F 3 "" H 3750 6750 50  0001 C CNN
+	1    3750 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6750 3750 6800
+$Comp
+L Device:C_Small C9
+U 1 1 6020CF03
+P 3250 7100
+F 0 "C9" H 3000 7100 50  0000 L CNN
+F 1 "1uF/50V" H 2900 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3250 7100 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 3250 7100 50  0001 C CNN
+F 4 "C15849" H 3250 7100 50  0001 C CNN "LCSC"
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 7000 3250 6800
+Wire Wire Line
+	3250 6800 3400 6800
+Connection ~ 3750 6800
+Wire Wire Line
+	3250 7200 3250 7450
+Wire Wire Line
+	3250 7450 3750 7450
+Connection ~ 3750 7450
+Wire Wire Line
+	4050 7100 4200 7100
+Wire Wire Line
+	4200 7100 4200 6800
+Wire Wire Line
+	3450 7100 3400 7100
+Wire Wire Line
+	3400 7100 3400 6800
+Connection ~ 3400 6800
+Wire Wire Line
+	3400 6800 3750 6800
+Wire Wire Line
+	10250 4550 10350 4550
+Wire Wire Line
+	10250 4650 10350 4650
+Wire Wire Line
+	10250 4750 10350 4750
+Wire Wire Line
+	10250 4850 10350 4850
+Text GLabel 10350 4550 2    50   Input ~ 0
+TDI
+Text GLabel 10350 4650 2    50   Input ~ 0
+TDO
+Text GLabel 10350 4750 2    50   Input ~ 0
+TMS
+Text GLabel 10350 4850 2    50   Input ~ 0
+TCK
+$Comp
+L Memory_EEPROM:25LCxxx U2
+U 1 1 6023452C
+P 5750 7050
+F 0 "U2" H 5500 7350 50  0000 C CNN
+F 1 "25LCxxx" H 5950 7350 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 7050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 5750 7050 50  0001 C CNN
+	1    5750 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 60234B8D
+P 5750 6700
+F 0 "#PWR0108" H 5750 6550 50  0001 C CNN
+F 1 "+3.3V" H 5765 6873 50  0000 C CNN
+F 2 "" H 5750 6700 50  0001 C CNN
+F 3 "" H 5750 6700 50  0001 C CNN
+	1    5750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 602359BB
+P 5750 7400
+F 0 "#PWR0109" H 5750 7150 50  0001 C CNN
+F 1 "GND" H 5755 7227 50  0000 C CNN
+F 2 "" H 5750 7400 50  0001 C CNN
+F 3 "" H 5750 7400 50  0001 C CNN
+	1    5750 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 7350 5750 7400
+Wire Wire Line
+	5750 6700 5750 6750
+Wire Wire Line
+	1250 700  1250 600 
+Wire Wire Line
+	1250 600  1350 600 
+Wire Wire Line
+	1450 600  1450 700 
+Wire Wire Line
+	1350 700  1350 600 
+Connection ~ 1350 600 
+Wire Wire Line
+	1350 600  1450 600 
+Wire Wire Line
+	4250 700  4250 600 
+Wire Wire Line
+	4250 600  4350 600 
+Wire Wire Line
+	4450 600  4450 700 
+Wire Wire Line
+	4350 700  4350 600 
+Connection ~ 4350 600 
+Wire Wire Line
+	4350 600  4450 600 
+$Comp
+L power:Vdrive #PWR0105
+U 1 1 6024BCF8
+P 4350 600
+F 0 "#PWR0105" H 4150 450 50  0001 C CNN
+F 1 "Vdrive" H 4600 550 50  0000 C CNN
+F 2 "" H 4350 600 50  0001 C CNN
+F 3 "" H 4350 600 50  0001 C CNN
+	1    4350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Vdrive #PWR0110
+U 1 1 6024C46E
+P 1350 600
+F 0 "#PWR0110" H 1150 450 50  0001 C CNN
+F 1 "Vdrive" H 1600 550 50  0000 C CNN
+F 2 "" H 1350 600 50  0001 C CNN
+F 3 "" H 1350 600 50  0001 C CNN
+	1    1350 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Vdrive #PWR0111
+U 1 1 6024C98E
+P 6700 600
+F 0 "#PWR0111" H 6500 450 50  0001 C CNN
+F 1 "Vdrive" H 6950 550 50  0000 C CNN
+F 2 "" H 6700 600 50  0001 C CNN
+F 3 "" H 6700 600 50  0001 C CNN
+	1    6700 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Vdrive #PWR0112
+U 1 1 6024CEFB
+P 9750 600
+F 0 "#PWR0112" H 9550 450 50  0001 C CNN
+F 1 "Vdrive" H 10000 550 50  0000 C CNN
+F 2 "" H 9750 600 50  0001 C CNN
+F 3 "" H 9750 600 50  0001 C CNN
+	1    9750 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 700  9650 600 
+Wire Wire Line
+	9650 600  9750 600 
+Wire Wire Line
+	9850 600  9850 700 
+Connection ~ 9750 600 
+Wire Wire Line
+	9750 600  9850 600 
+Wire Wire Line
+	9750 700  9750 600 
+Wire Wire Line
+	6650 700  6650 600 
+Wire Wire Line
+	6650 600  6700 600 
+Wire Wire Line
+	6750 600  6750 700 
+Connection ~ 6700 600 
+Wire Wire Line
+	6700 600  6750 600 
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 602589EE
+P 2400 7000
+F 0 "#PWR0113" H 2400 6850 50  0001 C CNN
+F 1 "+3.3V" H 2415 7173 50  0000 C CNN
+F 2 "" H 2400 7000 50  0001 C CNN
+F 3 "" H 2400 7000 50  0001 C CNN
+	1    2400 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7000 2400 7000
+Connection ~ 2200 7000
+$Comp
+L power:GND #PWR0114
+U 1 1 6025D4FC
+P 2400 7350
+F 0 "#PWR0114" H 2400 7100 50  0001 C CNN
+F 1 "GND" H 2405 7177 50  0000 C CNN
+F 2 "" H 2400 7350 50  0001 C CNN
+F 3 "" H 2400 7350 50  0001 C CNN
+	1    2400 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7300 2400 7300
+Wire Wire Line
+	2400 7300 2400 7350
+Connection ~ 2200 7300
+$Comp
+L Device:R_Small R2
+U 1 1 60262581
+P 4200 6700
+F 0 "R2" H 4259 6746 50  0000 L CNN
+F 1 "0R" H 4259 6655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 6700 50  0001 C CNN
+F 3 "~" H 4200 6700 50  0001 C CNN
+	1    4200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6600 4200 6550
+Wire Wire Line
+	4200 6550 4350 6550
+Text GLabel 4350 6550 2    50   Input ~ 0
+FPGA_CLOCK
+Text GLabel 9900 5950 2    50   Input ~ 0
+FPGA_CLOCK
+Text GLabel 10350 5050 2    50   Input ~ 0
+DONE_2
+Text GLabel 10350 5150 2    50   Input ~ 0
+PROGRAM_B_2
+Text GLabel 10350 5350 2    50   Input ~ 0
+SUSPEND
+Text GLabel 10350 5550 2    50   Input ~ 0
+CMPCS_B_2
+Wire Wire Line
+	10250 5050 10350 5050
+Wire Wire Line
+	10250 5150 10350 5150
+Wire Wire Line
+	10250 5350 10350 5350
+Wire Wire Line
+	10250 5550 10350 5550
+Text GLabel 6200 6950 2    50   Input ~ 0
+SPIRAM_SCK
+Wire Wire Line
+	6150 6950 6200 6950
+Wire Wire Line
+	6150 7050 6200 7050
+Wire Wire Line
+	6150 7150 6200 7150
+Text GLabel 6200 7050 2    50   Input ~ 0
+SPIRAM_MOSI
+Text GLabel 6200 7150 2    50   Input ~ 0
+SPIRAM_MISO
+Text GLabel 5300 6950 0    50   Input ~ 0
+SPIRAM_WP
+Text GLabel 5300 7050 0    50   Input ~ 0
+SPIRAM_HOLD
+Text GLabel 5300 7150 0    50   Input ~ 0
+SPIRAM_CS
+Wire Wire Line
+	5300 6950 5350 6950
+Wire Wire Line
+	5300 7050 5350 7050
+Wire Wire Line
+	5300 7150 5350 7150
+Text Notes 1550 4600 0    50   ~ 0
++3.3V is VAUX\n+1.2V is VCCINT
+Text GLabel 6200 3900 0    50   Input ~ 0
+INIT_B_2
+Text GLabel 6200 4000 0    50   Input ~ 0
+CSO_B_2
+Wire Wire Line
+	6200 3900 6250 3900
+Wire Wire Line
+	6200 4000 6250 4000
+$Comp
+L Memory_Flash:W25Q128JVS U3
+U 1 1 602BC28C
+P 5150 5400
+F 0 "U3" H 4900 5000 50  0000 C CNN
+F 1 "W25Q128JVSIQ" H 4700 4900 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" H 5150 5400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Winbond-Elec-W25Q128JVSIQTR_C97521.pdf" H 5150 5400 50  0001 C CNN
+F 4 "C97521" H 5150 5400 50  0001 C CNN "LCSC"
+	1    5150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 602BCAC9
+P 4250 5000
+F 0 "R3" H 4309 5046 50  0000 L CNN
+F 1 "10K" H 4309 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4250 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 4250 5000 50  0001 C CNN
+F 4 "C25804" H 4250 5000 50  0001 C CNN "LCSC"
+	1    4250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5300 4250 5300
+Wire Wire Line
+	4250 5300 4250 5100
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 602C654C
+P 4250 4850
+F 0 "#PWR0115" H 4250 4700 50  0001 C CNN
+F 1 "+3.3V" H 4265 5023 50  0000 C CNN
+F 2 "" H 4250 4850 50  0001 C CNN
+F 3 "" H 4250 4850 50  0001 C CNN
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 602C7104
+P 5150 5850
+F 0 "#PWR0116" H 5150 5600 50  0001 C CNN
+F 1 "GND" H 5155 5677 50  0000 C CNN
+F 2 "" H 5150 5850 50  0001 C CNN
+F 3 "" H 5150 5850 50  0001 C CNN
+	1    5150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5800 5150 5850
+$Comp
+L Device:R_Small R4
+U 1 1 602CC3F6
+P 5800 5000
+F 0 "R4" H 5859 5046 50  0000 L CNN
+F 1 "10K" H 5859 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 5800 5000 50  0001 C CNN
+F 4 "C25804" H 5800 5000 50  0001 C CNN "LCSC"
+	1    5800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 602CCEEB
+P 6050 5000
+F 0 "R5" H 6109 5046 50  0000 L CNN
+F 1 "10K" H 6109 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6050 5000 50  0001 C CNN
+F 4 "C25804" H 6050 5000 50  0001 C CNN "LCSC"
+	1    6050 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5600 6050 5600
+Wire Wire Line
+	6050 5600 6050 5100
+Wire Wire Line
+	5800 5100 5800 5500
+Wire Wire Line
+	5800 5500 5650 5500
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 602D6886
+P 5800 4850
+F 0 "#PWR0117" H 5800 4700 50  0001 C CNN
+F 1 "+3.3V" H 5815 5023 50  0000 C CNN
+F 2 "" H 5800 4850 50  0001 C CNN
+F 3 "" H 5800 4850 50  0001 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 602D6D17
+P 6050 4850
+F 0 "#PWR0118" H 6050 4700 50  0001 C CNN
+F 1 "+3.3V" H 6065 5023 50  0000 C CNN
+F 2 "" H 6050 4850 50  0001 C CNN
+F 3 "" H 6050 4850 50  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 5800 4900
+Wire Wire Line
+	6050 4850 6050 4900
+Text GLabel 4600 5500 0    50   Input ~ 0
+FLASH_CS
+Wire Wire Line
+	4600 5500 4650 5500
+Wire Wire Line
+	5650 5300 6150 5300
+Wire Wire Line
+	5650 5200 6150 5200
+Wire Wire Line
+	5800 5500 6150 5500
+Connection ~ 5800 5500
+Wire Wire Line
+	6050 5600 6150 5600
+Connection ~ 6050 5600
+Text GLabel 6150 5200 2    50   Input ~ 0
+FLASH_D0
+Text GLabel 6150 5300 2    50   Input ~ 0
+FLASH_D1
+Text GLabel 6150 5500 2    50   Input ~ 0
+FLASH_D2
+Text GLabel 6150 5600 2    50   Input ~ 0
+FLASH_D3
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 603184C6
+P 5150 4850
+F 0 "#PWR0119" H 5150 4700 50  0001 C CNN
+F 1 "+3.3V" H 5165 5023 50  0000 C CNN
+F 2 "" H 5150 4850 50  0001 C CNN
+F 3 "" H 5150 4850 50  0001 C CNN
+	1    5150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4850 5150 5000
+$Comp
+L Device:C_Small C11
+U 1 1 6031DF2B
+P 3950 5350
+F 0 "C11" H 3900 5600 50  0000 L CNN
+F 1 "1uF/50V" H 3400 5450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 5350 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 3950 5350 50  0001 C CNN
+F 4 "C15849" H 3950 5350 50  0001 C CNN "LCSC"
+	1    3950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 6031F6B4
+P 3800 5350
+F 0 "C10" H 3750 5600 50  0000 L CNN
+F 1 "1uF/50V" H 3400 5250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3800 5350 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KB8NNNC_1uF-105-10-50V_C15849.html/?href=jlc-SMT" H 3800 5350 50  0001 C CNN
+F 4 "C15849" H 3800 5350 50  0001 C CNN "LCSC"
+	1    3800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 6031F9CC
+P 3950 5550
+F 0 "#PWR0120" H 3950 5300 50  0001 C CNN
+F 1 "GND" H 3955 5377 50  0000 C CNN
+F 2 "" H 3950 5550 50  0001 C CNN
+F 3 "" H 3950 5550 50  0001 C CNN
+	1    3950 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5450 3800 5550
+Wire Wire Line
+	3800 5550 3950 5550
+Wire Wire Line
+	3950 5450 3950 5550
+Connection ~ 3950 5550
+Wire Wire Line
+	3800 5250 3800 5200
+Wire Wire Line
+	3800 5200 3900 5200
+Wire Wire Line
+	3950 5200 3950 5250
+Wire Wire Line
+	4250 4850 4250 4900
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 6033C022
+P 3900 4850
+F 0 "#PWR0121" H 3900 4700 50  0001 C CNN
+F 1 "+3.3V" H 3915 5023 50  0000 C CNN
+F 2 "" H 3900 4850 50  0001 C CNN
+F 3 "" H 3900 4850 50  0001 C CNN
+	1    3900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4850 3900 5200
+Connection ~ 3900 5200
+Wire Wire Line
+	3900 5200 3950 5200
+Wire Notes Line
+	3350 4550 3350 6150
+Wire Notes Line
+	3350 6150 6650 6150
+Wire Notes Line
+	6650 6150 6650 4550
+Wire Notes Line
+	6650 4550 3350 4550
+Text Notes 3450 6100 0    50   ~ 0
+BOOT_FLASH
+$Sheet
+S 7400 5800 1000 600 
+U 6034B87F
+F0 "SheetPower" 50
+F1 "eduino_fpga_power.sch" 50
+$EndSheet
+$Comp
+L Device:R_Small R1
+U 1 1 6034F487
+P 3750 4000
+F 0 "R1" H 3809 4046 50  0000 L CNN
+F 1 "10K" H 3809 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 3750 4000 50  0001 C CNN
+F 4 "C25804" H 3750 4000 50  0001 C CNN "LCSC"
+	1    3750 4000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8600 5800 650  600 
+U 6035A4E9
+F0 "SheetConnectors" 50
+F1 "eduino_fpga_connector.sch" 50
+$EndSheet
+$EndSCHEMATC

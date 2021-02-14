@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "74lvc1g157")(type "KiCad")(uri "${KIPRJMOD}/74lvc1g157.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library_Edwin")(type "KiCad")(uri "${KIPRJMOD}/New_Library_Edwin.kicad_sym")(options "")(descr ""))
+)
