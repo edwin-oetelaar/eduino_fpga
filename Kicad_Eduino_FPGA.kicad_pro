@@ -58,7 +58,7 @@
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -112,11 +112,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.18,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "min_via_diameter": 0.39999999999999997
       },
       "track_widths": [
         0.0,
@@ -351,9 +347,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "New_Library_Edwin"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "Kicad_Eduino_FPGA.kicad_pro",
@@ -364,9 +358,9 @@
       {
         "bus_width": 12.0,
         "clearance": 0.18,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -403,6 +397,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -417,8 +412,14 @@
       "version": 0
     },
     "net_format_name": "Pcbnew",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "pdf_plot",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -426,20 +427,24 @@
   },
   "sheets": [
     [
-      "00000000-0000-0000-0000-00006034b87f",
+      "866fc9e8-5a4d-4400-bda5-cc319e50e6a7",
       ""
     ],
     [
-      "00000000-0000-0000-0000-00006034b87f",
-      "SheetPower"
+      "474b46c4-15f2-4b75-ad7f-61374f1caa8a",
+      "PowerSupply"
     ],
     [
-      "00000000-0000-0000-0000-00006035a4e9",
-      "SheetConnectors"
+      "95a1abd1-b1a4-4382-8ad2-cd133b183423",
+      "LogicalLedsFPGA"
     ],
     [
-      "4722773f-168d-4caf-a3b8-263d5414909f",
-      "Mounting_holes"
+      "71850f07-4f7d-41ab-8fcb-27db48ca7950",
+      "PowerBusLeds"
+    ],
+    [
+      "990b09b7-8af9-470f-81ca-d22cb71bf161",
+      "Serial_USB"
     ]
   ],
   "text_variables": {}
